@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 app.post("/api/weather", async (req, res) => {
   const { zipCode, countryCode } = req.body;
-  const apiKey = "0c89b78a6d43eecfa5c13add38108618";
+  const apiKey = "your_API_Key";
 
   console.log(req, res);
   const zipApiUrl = `http://api.openweathermap.org/geo/1.0/zip?zip=${zipCode},${countryCode}&appid=${apiKey}`;
