@@ -32,3 +32,7 @@ Follow these instructions to get the project up and running on your local machin
 ```bash
 git clone https://github.com/your-username/weather-app.git
 ```
+
+## Preview
+
+![Preview](<Screenshot 2024-09-17 at 7.55.12 PM.png>)
